@@ -13,17 +13,16 @@
      * date 06/09/2023
     */
 
-    // Setup the local time and put it on hours (0-24h).
+    // Setup the local time and put it on hours (0-23h).
     date_default_timezone_set("Europe/Amsterdam");
     $time = date("H");
  
-    // Change the background color between daytime and nighttime.
+    // Changes the background color between daytime and nighttime.
     if ($time > 7 && $time < 19) {
         $bg = "#9394a5";
     } else {
         $bg = "#484b6a";
     }
-
 ?>
 
 <!DOCTYPE html>
