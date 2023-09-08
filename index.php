@@ -34,7 +34,7 @@
 </head>
 <body style="background-color:<?php echo $bg; ?>">
     <?php 
-        // Variables about me
+        // Variables about me.
         $name = "Daniel Pustjens";
         $age = 22;
         $mobile =  31615601397;
@@ -66,7 +66,7 @@
         echo $student ? "Yes, I am a student." : "No, I am NOT a student.";
         echo "<br> College name: " . $collegeName . "<br> College study: " . $collegeStudy . "<br>";
 
-        // Foreach loops to echpo all the values of the array languages, family and hobbies.
+        // Foreach loops to echo all the values of the array: languages, family and hobbies.
         echo "<br> Languages: <br>";
         foreach ($languages as $language) {
             echo "- " . $language . "<br>";
