@@ -13,7 +13,7 @@
      * date 06/09/2023
     */
 
-    // Setup the local time and put it on hours (0-23h).
+    // Sets the local time and then sets it to hours (0-23 hours).
     date_default_timezone_set("Europe/Amsterdam");
     $time = date("H");
  
@@ -66,7 +66,7 @@
         echo $student ? "Yes, I am a student." : "No, I am NOT a student.";
         echo "<br> College name: " . $collegeName . "<br> College study: " . $collegeStudy . "<br>";
 
-        // Foreach loops to print out all the values of the array languages, family and hobbies.
+        // Foreach loops to echpo all the values of the array languages, family and hobbies.
         echo "<br> Languages: <br>";
         foreach ($languages as $language) {
             echo "- " . $language . "<br>";
